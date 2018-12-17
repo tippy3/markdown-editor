@@ -1,11 +1,14 @@
-# markdown-editor
+# [markdown-editor](https://markdown-editor-by-tippy.firebaseapp.com/)
+
+公開中→https://markdown-editor-by-tippy.firebaseapp.com/
 
 Vue.jsとFirebaseによって作られたマークダウンエディターです。
 
--
+- Googleアカウントによるユーザー認証
+- データはFirebase Realtime DBに保存
 - 複数個のメモを作成可能
 - リアルタイムプレビュー
--
+
 
 ## Build Setup
 
