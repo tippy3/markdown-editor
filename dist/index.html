@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>markdown-editor</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDHeLHsVLJgT1jPPJ--JCibKgvId0LWmi8",
+        authDomain: "markdown-editor-by-tippy.firebaseapp.com",
+        databaseURL: "https://markdown-editor-by-tippy.firebaseio.com",
+        projectId: "markdown-editor-by-tippy",
+        storageBucket: "",
+        messagingSenderId: "449948136937"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="./build.js"></script>
+  </body>
+</html>
